@@ -1,0 +1,41 @@
+/*Наші переваги*/
+.benefit-list {
+    display: flex;
+    gap: 30px;
+    align-content: center;
+}
+
+.benefit-item__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.benefit-item__icon-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: var(--btn-cl);
+    border-radius: 4px;
+}
+
+.benefit-item__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-txt-cl);
+}
+
+.benefit-item__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+}

@@ -1,0 +1,75 @@
+/*Наша команда*/
+.team {
+    background-color: #f5f4fa;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-item {
+    background-color: var(--white-txt-cl);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+/*Наша команда Ім'я*/
+.team-item-subject__title {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*Наша команда Посада*/
+.team-item-subject__text {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+}
+
+.team-item-subject {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.socials {
+    margin-top: 16px;
+
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-bottom: 0;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.socials-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-txt-cl);
+    border-radius: 50%;
+    fill: #afb1b8;
+
+    transition: background-color var(--animation), fill var(--animation);
+
+&:hover,
+&:focus {
+    background-color: var(--accent-txt-cl);
+    fill: var(--white-txt-cl);
+}
+}
+
+.socials-link__icon {
+    width: 20px;
+    height: 20px;
+}

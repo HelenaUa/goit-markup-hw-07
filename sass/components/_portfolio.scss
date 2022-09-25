@@ -1,0 +1,79 @@
+/*Portfolio*/
+.project-card__title {
+    margin-bottom: 4px;
+    color: var(--main-txt-cl);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+
+.project-card__text {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    width: 370px;
+}
+
+.project-card__part-down {
+    padding: 20px 24px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.project-card__link {
+    position: relative;
+
+    overflow: hidden;
+
+    display: block;
+    text-decoration: none;
+
+    transition: box-shadow var(--animation);
+
+&:hover,
+&:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+}
+
+.project-card__part-up {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card__link:hover .project-card__text-overlay,
+.project-card__link:focus .project-card__text-overlay {
+    transform: translateY(0);
+}
+
+.project-card__text-overlay {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    letter-spacing: 0.03em;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: var(--white-txt-cl);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform: translateY(100%);
+
+    padding: 63px 24px;
+
+    transition: transform var(--animation);
+}

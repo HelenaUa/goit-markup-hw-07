@@ -246,9 +246,9 @@ ul {
 
   transition: background-color var(--animation);
 }
-.btn-hero:hover,
-.btn-hero:focus,
-.btn-hero.active {
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn.active {
   background-color: var(--btn-hover-cl);
 }
 
@@ -704,6 +704,7 @@ ul {
   width: 20px;
   height: 20px;
 }
+
 /*Постійні клієнти*/
 .clients {
 }
@@ -867,15 +868,6 @@ ul {
   display: flex;
   align-items: baseline;
 }
-
-/* .footer-logo-begin {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--accent-txt-cl);
-} */
 
 .logo__right-part--light {
   font-family: var(--secondary-font);
