@@ -1,4 +1,4 @@
-.filter-button-item__btn {
+.portfolio-button__btn {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--main-font);
@@ -26,12 +26,12 @@
 }
 }
 
-.filter-button {
+.portfolio-button {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.filter-button-item:not(:last-child) {
+.portfolio-button__item:not(:last-child) {
     margin-right: 8px;
 }

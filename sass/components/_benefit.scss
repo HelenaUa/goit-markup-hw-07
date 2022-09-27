@@ -1,16 +1,16 @@
 /*Наші переваги*/
-.benefit-list {
+.benefit {
     display: flex;
     gap: 30px;
     align-content: center;
 }
 
-.benefit-item__icon {
+.benefit__icon {
     width: 70px;
     height: 70px;
 }
 
-.benefit-item__icon-area {
+.benefit__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     border-radius: 4px;
 }
 
-.benefit-item__title {
+.benefit__title {
     margin-top: 30px;
     margin-bottom: 10px;
 
@@ -32,7 +32,7 @@
     color: var(--main-txt-cl);
 }
 
-.benefit-item__text {
+.benefit__text {
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);

@@ -1,20 +1,16 @@
 /*Чим ми займаємось*/
 .work {
-    padding-top: 0;
-}
-
-.work-list {
     display: flex;
     gap: 30px;
 }
 
-.work-item {
+.work__item {
     position: relative;
 
     width: 370px;
 }
 
-.work-product {
+.work__box {
     display: flex;
     align-items: center;
     justify-content: center;

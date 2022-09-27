@@ -4,14 +4,14 @@
     background-color: var(--accent-bg-cl);
 }
 
-.footer-info {
-    margin-right: 70px;
-    flex-grow: 1;
-}
-
 .footer-container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-info {
+    margin-right: 70px;
+    flex-grow: 1;
 }
 
 .address {

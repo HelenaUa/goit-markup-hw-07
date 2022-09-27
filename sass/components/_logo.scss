@@ -1,4 +1,4 @@
-.logo__left-part {
+.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -7,7 +7,7 @@
     color: var(--accent-txt-cl);
 }
 
-.logo__right-part--dark {
+.logo__dark {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -16,7 +16,7 @@
     color: #000000;
 }
 
-.logo__right-part--light {
+.logo__light {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
